@@ -40,16 +40,19 @@ const Header = () => {
             </nav>
 
             <div className='header__sns'>
-                <ul>
+                <ul className='sns'>
                     {snsLink.map((sns, key) => (
                         <li key={key}>
-                            <a href={sns.url} target="_blank" rel="noopener noreferrer"} aria-labe={sns.title}>
-                            <span>{sns.icon}</span>
-                        </a>
+                            <li>
+                                <a href={sns.url} target="_blank" rel="noopener noreferrer" aria-label={sns.title}>
+                                    <span>{sns.icon}</span>
+                                </a>
                             </li>
-                        ))}
-            </ul>
-        </div>
+                        </li>
+                    ))}
+                    {/* <li><a href="/">aa</a></li> */}
+                </ul>
+            </div>
         </header >
     )
 }
