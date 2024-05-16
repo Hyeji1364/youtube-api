@@ -6,7 +6,7 @@
 2. 폴더 셋팅 : 필요없는 파일 제거
 3. git init
 4. npx create-react-app .
-5. node.js 실행 : npm start
+5. node.js 실행 : `npm start`
 
 ## 자동완성 단축키
 `rafce`
@@ -33,3 +33,6 @@
 
 ## build 실행
 - npm run build
+
+## React
+버츄얼 돔 방식 - 재활용 가능
