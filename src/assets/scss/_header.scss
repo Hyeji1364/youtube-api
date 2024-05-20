@@ -33,17 +33,18 @@
     .menu {
         li {
             margin: 10px;
-            background-color: #f09c9c;
+            background-color: #ebe5bb;
             border-radius: 40px;
             transition: all 0.3s;
 
 
             a {
-                margin-top: 15px;
+                margin-top: 10px;
                 font-size: 1rem;
                 display: block;
                 padding: 0.5rem 0.7rem;
-                text-align: center;
+                margin-left: 1rem;
+                color: #4b4b4b;
 
                 span {
                     display: inline-block;
@@ -103,7 +104,6 @@
     text-align: center;
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
-    backdrop-filter: blur(10px);
 
     li {
         display: inline-block;

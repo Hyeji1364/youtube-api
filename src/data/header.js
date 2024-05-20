@@ -12,11 +12,11 @@ export const headerMenus = [
     {
         title: "맛집",
         icon: <PiBowlFoodFill />,
-        src: "/"
+        src: "/Famousplace"
     }, {
         title: "서울",
         icon: <IoLocationSharp />,
-        src: "/seoul"
+        src: "/Seoul"
     }, {
         title: "경기도",
         icon: <IoLocationSharp />,
@@ -28,7 +28,7 @@ export const headerMenus = [
     }, {
         title: "강원도",
         icon: <IoLocationSharp />,
-        src: "/Gangwon-do"
+        src: "/Gangwondo"
     }, {
         title: "제주",
         icon: <GiPalmTree />,
@@ -36,7 +36,7 @@ export const headerMenus = [
     }, {
         title: "다이어트 레시피",
         icon: <GiPalmTree />,
-        src: "/diet"
+        src: "/Diet"
     }
 ]
 

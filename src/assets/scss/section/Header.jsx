@@ -11,10 +11,10 @@ const Header = () => {
     return (
         <header id='header' role='banner'>
             <h1 className='header__logo'>
-                <a href="/">
+                <Link to="/">
                     <em></em>
                     <span>popular spot<br /><i>youtube</i></span>
-                </a>
+                </Link>
             </h1>
 
             <nav className='header__menu'>
